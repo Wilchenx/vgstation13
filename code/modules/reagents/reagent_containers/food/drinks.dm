@@ -1306,6 +1306,14 @@
 	icon_state = "gromitmug"
 	volume = 30
 
+/obj/item/weapon/reagent_containers/food/drinks/quarksmug
+	name = "\improper Quarks Mug"
+	desc = "Quarks Mug."
+	icon = 'icons/obj/cafe.dmi'
+	icon_state = "quarksmug"
+	volume = 30
+	playsound(user, 'sound/effects/quarks_theme.ogg', 80, 1)
+
 ///////////////////////////////////////////////Alchohol bottles! -Agouri //////////////////////////
 //Functionally identical to regular drinks. The only difference is that the default bottle size is 100. - Darem
 //Bottles now weaken and break when smashed on people's heads. - Giacom
