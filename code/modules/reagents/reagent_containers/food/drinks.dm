@@ -1312,7 +1312,7 @@
 	icon = 'icons/obj/cafe.dmi'
 	icon_state = "quarksmug"
 	volume = 30
-	playsound(user, 'sound/effects/quarks_theme.ogg', 80, 1)
+	var/list/open_sounds = list('sound/effects/quarks_theme.ogg')
 
 ///////////////////////////////////////////////Alchohol bottles! -Agouri //////////////////////////
 //Functionally identical to regular drinks. The only difference is that the default bottle size is 100. - Darem
